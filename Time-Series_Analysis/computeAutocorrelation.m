@@ -33,3 +33,14 @@ function [lags, autocorrValues] = computeAutocorrelation(signal, fs, maxLagSec)
     % Output full symmetric autocorrelation
     autocorrValues = r;
 end
+
+% Example Usage:
+% if doAutocorrelation
+%     [lagSec, acf] = computeAutocorrelation(audio, fs, 0.2);  % Up to ±200 ms
+%     nexttile;
+%     plot(lagSec, acf, 'LineWidth', 1.2);
+%     title('Autocorrelation');
+%     xlabel('Lag (s)'); ylabel('Correlation');
+%     grid on;
+% end
+

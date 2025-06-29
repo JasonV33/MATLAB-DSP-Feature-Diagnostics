@@ -33,3 +33,15 @@ function [t, envelopeHilbert, envelopeRMS] = computeSignalEnvelope(signal, fs)
     if mod(winSize, 2) == 0, winSize = winSize + 1; end
     envelopeRMS = sqrt(movmean(signal.^2, winSize));
 end
+
+
+% Example Usage
+% if doSignalEnvelop
+%     [t, envH, envR] = computeSignalEnvelope(audio, fs);
+%     nexttile;
+%     plot(t, audio, 'Color', [0.6 0.6 0.6], 'DisplayName', 'Original'); hold on;
+%     plot(t, envH, 'r', 'LineWidth', 1.2, 'DisplayName', 'Hilbert');
+%     plot(t, envR, 'g', 'LineWidth', 1.2, 'DisplayName', 'RMS');
+%     title('Signal Envelope'); xlabel('Time (s)'); ylabel('Amplitude');
+%     legend(); grid on;
+% end

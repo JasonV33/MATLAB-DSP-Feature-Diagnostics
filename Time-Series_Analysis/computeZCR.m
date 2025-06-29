@@ -41,3 +41,13 @@ function [t_zcr, zcrPerFrame] = computeZCR(signal, fs, frameDuration, hopDuratio
         t_zcr(i) = (idxStart + idxEnd) / (2 * fs);
     end
 end
+
+% Example Usage
+% if doZeroCrossingRate
+%     [tZCR, zcr] = computeZCR(audio, fs, 0.02, 0.01);  % 20ms frame, 10ms hop
+%     nexttile;
+%     plot(tZCR, zcr, 'k');
+%     title('Zero-Crossing Rate');
+%     xlabel('Time (s)'); ylabel('ZCR (per frame)');
+%     grid on;
+% end

@@ -1,7 +1,8 @@
 % =========================================================================
 % File        : main_DSP_Feature_Diagnostics.m
 % Product     : DSP-Feature-Diagnostics
-% Author      : Jason Vasallo
+% Author      : Jason Menard Vasallo
+% Contact     : vasallojg@gmail.com
 % Created on  : 2025-06-29
 %
 % Description :

@@ -38,3 +38,13 @@ function [t_energy, energyPerFrame] = computeShortTimeEnergy(signal, fs, frameDu
         t_energy(i) = (idxStart + idxEnd) / (2*fs);  % frame center time
     end
 end
+
+% Example Usage
+% if doShortTimeenergy
+%     [tE, energy] = computeShortTimeEnergy(audio, fs, 0.02, 0.01);  % 20ms frames, 10ms hop
+%     nexttile;
+%     plot(tE, energy, 'b');
+%     title('Short-Time Energy');
+%     xlabel('Time (s)'); ylabel('Energy');
+%     grid on;
+% end

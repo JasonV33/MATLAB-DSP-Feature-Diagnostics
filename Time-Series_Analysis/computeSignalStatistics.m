@@ -42,3 +42,18 @@ function stats = computeSignalStatistics(signal)
     p(p == 0) = [];  % Remove zero entries to avoid log(0)
     stats.Entropy = -sum(p .* log2(p));
 end
+
+% Example Usage
+% if doSignalStatistics
+%     stats = computeSignalStatistics(audio);
+%     figure('Name', 'Signal Statistics', 'Color', 'w');
+%     statNames = fieldnames(stats);
+%     statValues = struct2array(stats);
+
+%     % Bar chart
+%     bar(statValues);
+%     set(gca, 'XTickLabel', statNames, 'XTickLabelRotation', 45);
+%     ylabel('Value');
+%     title('Signal-Level Statistical Features');
+%     grid on;
+% end
