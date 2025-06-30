@@ -58,3 +58,13 @@ function [t_pitch, pitchHz] = estimatePitch(signal, fs, frameDuration, hopDurati
         t_pitch(i) = (idxStart + idxEnd) / (2 * fs);
     end
 end
+
+% Example Usage:
+% if doPitchTracking
+%     [tPitch, pitch] = estimatePitch(audio, fs, 0.03, 0.01, 50, 500);
+%     nexttile;
+%     plot(tPitch, pitch, 'm');
+%     title('Pitch Tracking (Autocorrelation)');
+%     xlabel('Time (s)'); ylabel('Pitch (Hz)');
+%     ylim([0 600]); grid on;
+% end

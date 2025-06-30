@@ -43,7 +43,7 @@ function stats = computeSignalStatistics(signal)
     stats.Entropy = -sum(p .* log2(p));
 end
 
-% Example Usage
+% Example Usage:
 % if doSignalStatistics
 %     stats = computeSignalStatistics(audio);
 %     figure('Name', 'Signal Statistics', 'Color', 'w');

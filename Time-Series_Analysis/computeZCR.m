@@ -42,7 +42,7 @@ function [t_zcr, zcrPerFrame] = computeZCR(signal, fs, frameDuration, hopDuratio
     end
 end
 
-% Example Usage
+% Example Usage:
 % if doZeroCrossingRate
 %     [tZCR, zcr] = computeZCR(audio, fs, 0.02, 0.01);  % 20ms frame, 10ms hop
 %     nexttile;

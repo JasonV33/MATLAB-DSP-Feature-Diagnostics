@@ -35,7 +35,7 @@ function [t, envelopeHilbert, envelopeRMS] = computeSignalEnvelope(signal, fs)
 end
 
 
-% Example Usage
+% Example Usage:
 % if doSignalEnvelop
 %     [t, envH, envR] = computeSignalEnvelope(audio, fs);
 %     nexttile;
