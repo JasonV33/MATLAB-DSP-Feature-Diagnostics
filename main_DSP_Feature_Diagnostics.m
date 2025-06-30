@@ -24,7 +24,7 @@
 % =========================================================================
 
 % Load signal
-signal_dir = "C:\ProgramData\Ableton\Live 12 Suite\Resources\Core Library\Samples\Loops\Tonal\Keys\Dirty Herbie Chords 73 bpm.wav";
+signal_dir = "<insert_script>";
 [audio, fs] = audioread(signal_dir);
 
 % Settings

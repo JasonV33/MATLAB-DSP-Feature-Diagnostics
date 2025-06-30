@@ -14,8 +14,6 @@ function [magCQT, fCQT, tCQT] = computeCQT(signal, fs)
 %   [mag, f, t] = computeCQT(audio, fs);
 %   imagesc(t, f, mag);
 
-% computeCQT - For systems where cqt() returns 3D double matrix [bins x frames x channels]
-
     % Run CQT
     cqtResult = cqt(signal, 'SamplingFrequency', fs);
 
