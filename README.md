@@ -92,6 +92,30 @@ De La Salle University
 
 ---
 
+## Upcoming Techniques (Planned Modules)
+
+We are continuously improving the DSP Feature Diagnostics Tool to support more advanced and modern signal processing techniques. Below is a list of upcoming modules under research and development:
+
+| Technique                    | Theory Description                                         | Purpose                                    | Planned Visualization        | Status   |
+|-----------------------------|------------------------------------------------------------|--------------------------------------------|-------------------------------|----------|
+| Teager–Kaiser Energy (TKEO) | Instantaneous nonlinear energy operator                    | Reveal fine AM/FM features                 | Energy envelope               | Pending  |
+| Cepstrum Analysis           | FFT of log spectrum (quefrency domain)                     | Pitch detection, source-filter separation  | Quefrency plot                | Planned  |
+| Group Delay Functions       | Derivative of phase spectrum                               | Emphasize formants and transitions         | Delay vs frequency            | Planned  |
+| Reassigned Spectrogram      | Spectrogram with localized energy redistribution           | High-res time-frequency view               | Enhanced spectrogram          | Planned  |
+| EMD (Empirical Mode Decomposition) | Adaptive mode decomposition                         | Nonlinear signal decomposition             | IMF plots                     | Pending  |
+| Wigner–Ville Distribution   | Quadratic time-frequency representation                    | Rich joint analysis                        | Time-frequency map            | Pending  |
+| Gammatonegram               | Human auditory-based filterbank                            | Better perceptual features                 | Gammatonegram                 | Planned  |
+| Synchrosqueezing Transform  | Refined time-frequency transformation                      | Spectral energy concentration              | High-res time-freq plot       | Planned  |
+| Tonnetz Features            | Harmonic interval mapping in tonal space                  | Chord and emotion analysis                 | Tonnetz graph                 | Pending  |
+| Modulation Spectrum         | Spectrum of envelope modulation                            | Rhythm and AM pattern detection            | Modulation vs frequency plot  | Planned  |
+| Recurrence Plot             | Recurring patterns in signal trajectories                  | Chaos/cycle detection                      | Recurrence matrix             | Pending  |
+| Self-Similarity Matrix      | Measures internal structure similarity                     | Music segmentation, repetition detection   | Similarity matrix             | Planned  |
+| Permutation Entropy         | Complexity measure via ordinal patterns                    | Quantify randomness and disorder           | Scalar or entropy curve       | Pending  |
+| Spectrogram of Spectrogram  | Second-order spectro-temporal representation               | Capture long-term modulations              | 2D map                        | Planned  |
+
+> These techniques are currently under research, validation, or awaiting implementation. We welcome contributions or feedback on their inclusion.
+
+
 ## Project Status
 
 This project is actively maintained. I am currently expanding the toolbox with new diagnostic techniques, incorporating recent signal processing theories, and still refining unreleased documentations for broader usability.
