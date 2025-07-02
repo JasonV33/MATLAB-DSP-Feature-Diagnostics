@@ -99,19 +99,19 @@ We are continuously improving the DSP Feature Diagnostics Tool to support more a
 | Technique                    | Theory Description                                         | Purpose                                    | Planned Visualization        | Status   |
 |-----------------------------|------------------------------------------------------------|--------------------------------------------|-------------------------------|----------|
 | Teager–Kaiser Energy (TKEO) | Instantaneous nonlinear energy operator                    | Reveal fine AM/FM features                 | Energy envelope               | Pending  |
-| Cepstrum Analysis           | FFT of log spectrum (quefrency domain)                     | Pitch detection, source-filter separation  | Quefrency plot                | Planned  |
-| Group Delay Functions       | Derivative of phase spectrum                               | Emphasize formants and transitions         | Delay vs frequency            | Planned  |
-| Reassigned Spectrogram      | Spectrogram with localized energy redistribution           | High-res time-frequency view               | Enhanced spectrogram          | Planned  |
+| Cepstrum Analysis           | FFT of log spectrum (quefrency domain)                     | Pitch detection, source-filter separation  | Quefrency plot                | Pending  |
+| Group Delay Functions       | Derivative of phase spectrum                               | Emphasize formants and transitions         | Delay vs frequency            | Pending  |
+| Reassigned Spectrogram      | Spectrogram with localized energy redistribution           | High-res time-frequency view               | Enhanced spectrogram          | Pending  |
 | EMD (Empirical Mode Decomposition) | Adaptive mode decomposition                         | Nonlinear signal decomposition             | IMF plots                     | Pending  |
 | Wigner–Ville Distribution   | Quadratic time-frequency representation                    | Rich joint analysis                        | Time-frequency map            | Pending  |
-| Gammatonegram               | Human auditory-based filterbank                            | Better perceptual features                 | Gammatonegram                 | Planned  |
-| Synchrosqueezing Transform  | Refined time-frequency transformation                      | Spectral energy concentration              | High-res time-freq plot       | Planned  |
+| Gammatonegram               | Human auditory-based filterbank                            | Better perceptual features                 | Gammatonegram                 | Pending  |
+| Synchrosqueezing Transform  | Refined time-frequency transformation                      | Spectral energy concentration              | High-res time-freq plot       | Pending  |
 | Tonnetz Features            | Harmonic interval mapping in tonal space                  | Chord and emotion analysis                 | Tonnetz graph                 | Pending  |
-| Modulation Spectrum         | Spectrum of envelope modulation                            | Rhythm and AM pattern detection            | Modulation vs frequency plot  | Planned  |
+| Modulation Spectrum         | Spectrum of envelope modulation                            | Rhythm and AM pattern detection            | Modulation vs frequency plot  | Pending  |
 | Recurrence Plot             | Recurring patterns in signal trajectories                  | Chaos/cycle detection                      | Recurrence matrix             | Pending  |
-| Self-Similarity Matrix      | Measures internal structure similarity                     | Music segmentation, repetition detection   | Similarity matrix             | Planned  |
+| Self-Similarity Matrix      | Measures internal structure similarity                     | Music segmentation, repetition detection   | Similarity matrix             | Pending  |
 | Permutation Entropy         | Complexity measure via ordinal patterns                    | Quantify randomness and disorder           | Scalar or entropy curve       | Pending  |
-| Spectrogram of Spectrogram  | Second-order spectro-temporal representation               | Capture long-term modulations              | 2D map                        | Planned  |
+| Spectrogram of Spectrogram  | Second-order spectro-temporal representation               | Capture long-term modulations              | 2D map                        | Pending  |
 
 > These techniques are currently under research, validation, or awaiting implementation. We welcome contributions or feedback on their inclusion.
 
